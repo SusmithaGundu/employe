@@ -2,8 +2,8 @@ pipeline{
  agent any
   stages{
      stage('Build and tag'){
-        steps{
-          sh 'docker build -t Employe .'
+       steps{
+          sh 'docker build -t susmithagundu/repo1:Employe .'
         }
       }
      stage('Publish'){
