@@ -10,7 +10,7 @@ pipeline{
          withDockerRegistry([ credentialsId: "dockerhub", url: "" ]) {
            sh 'docker push susmithagundu/repo1:Employe'
            }
-
+         }
        }
-
+   }
 }
