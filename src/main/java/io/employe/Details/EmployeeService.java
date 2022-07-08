@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmployeeService {
 	
-	 private List<Employee> details =new ArrayList<Employee>();
+	  private List<Employee> details =new ArrayList<Employee>();
 	
 	@Autowired
 	private EmployeeRepository er;
